@@ -266,9 +266,38 @@
                 <p class="text-white fs-6">It is a long established fact that a reader will be distracted by the
                     readable content of a page when looking at its layout.</p>
             </div>
-            <button type="button" class="btn btn-light text-primary  rounded-3 text-center h-25"
-                style="font-size: 1.5vw;;">Register
-                Now</button>
+
+            <!-----------------------------------------------
+                Button
+            ------------------------------------------------->
+
+            <button type="button" class="btn btn-light text-primary  rounded-3 text-center h-25" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" style="font-size: 1.5vw;;">Register
+                Now
+            </button>
+
+            <!-----------------------------------------------
+                Modal
+            ------------------------------------------------->
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">You are about to Register</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Are you ready to start your journey?</h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Not yet</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Yup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </form>
 
 
