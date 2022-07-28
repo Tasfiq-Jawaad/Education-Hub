@@ -1,0 +1,22 @@
+@media (min-width:576px) {
+    .hub-mb-sm-6 {
+        margin-bottom: 3rem !important
+    }
+
+}
+
+
+
+@media (min-width:768px) {
+
+    .hub-mb-md-6 {
+        margin-bottom: 4rem !important
+    }
+
+}
+
+@media (min-width:992px) {
+    .hub-mb-lg-6 {
+        margin-bottom: 9rem !important
+    }
+}
